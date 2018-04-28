@@ -1,0 +1,16 @@
+{
+  "name": "grammaticality-app",
+  "stack": "heroku-16",
+  "description": "This is the grammatical judgments app by G. Moroz",
+  "keywords": [
+    "grammatical judgments",
+    "grammaticality"
+  ],
+  "repository": "https://github.com/agricolamz/2018_18.04.28_Grammaticality_shiny",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/virtualstaticvoid/heroku-buildpack-r.git#heroku-16"
+    }
+  ]
+}
